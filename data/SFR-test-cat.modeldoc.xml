@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_96260480_5882_424d_BA6E_22618CCDB599"
       generator-version="1.53.2"
-      generator-date="2019-07-25T14:01:34Z">
+      generator-date="2019-07-25T14:06:40Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Wandmonsteranalyse"
@@ -243,63 +243,6 @@
                         </item>
                         <item>0 .. 3</item>
                      </part>
-                     <part type="COMPOSER">
-                        <item>
-                           <item type="detail" idref="detail_class_Wandmonsteranalyse_ResultaatBepaling">resultaat bepaling (Resultaat bepaling)</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                        </item>
-                        <item/>
-                        <item>1</item>
-                     </part>
-                     <part type="COMPOSED">
-                        <item>
-                           <item type="detail"
-                                 idref="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_drogeBulkdichtheid">droge bulkdichtheid</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_gmlMeasure">Meetwaarde</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part type="COMPOSED">
-                        <item>
-                           <item type="detail"
-                                 idref="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_droogtemperatuur">droogtemperatuur</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Wandmonsteranalyse_Droogtemperatuur">Droogtemperatuur</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part type="COMPOSED">
-                        <item>
-                           <item type="detail"
-                                 idref="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_volumeWaterverzadigd">volume waterverzadigd</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_IndicationYesNoEnumeration">IndicatieJaNee</item>
-                        </item>
-                        <item>1</item>
-                     </part>
                   </content>
                </section>
                <section type="SHORT-ASSOCIATIONS">
@@ -313,7 +256,7 @@
                            <item>[ 1 ]</item>
                            <item>
                               <item type="detail"
-                                    idref="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid">leidt tot</item>
+                                    idref="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_bla">leidt tot: bla</item>
                            </item>
                            <item>
                               <item type="global" idref="global_class_Wandmonsteranalyse_ResultaatBepaling">Resultaat bepaling</item>
@@ -349,7 +292,7 @@
                            <item>[ 1 ]</item>
                            <item>
                               <item type="detail"
-                                    idref="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid">leidt tot</item>
+                                    idref="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_bla">leidt tot: bla</item>
                            </item>
                            <item>
                               <item type="global" idref="global_class_Wandmonsteranalyse_ResultaatBepaling">Resultaat bepaling</item>
@@ -2924,6 +2867,153 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                   </content>
                </section>
             </section>
+            <section name="Resultaat bepaling"
+                     type="OBJECTTYPE"
+                     id="global_class_Wandmonsteranalyse_ResultaatBepaling"
+                     uuid="EAID_61AB3BF7_1769_47b2_81A8_75ECB699775E">
+               <section type="IMAGEMAPS"
+                        name="Resultaat bepaling-imagemap"
+                        id="imagemap_class_Wandmonsteranalyse_ResultaatBepaling">
+                  <section type="IMAGEMAP"
+                           name="Resultaat bepaling - overzicht"
+                           id="EAID_C4605179_86E7_4a71_B617_337CD049DCF8">
+                     <content>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>Resultaat bepaling - overzicht</item>
+                        </part>
+                        <part type="CFG-DOC-DESCRIPTION">
+                           <item>Omschrijving</item>
+                           <item/>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <content>
+                  <part type="CFG-DOC-NAAM">
+                     <item>Naam</item>
+                     <item>Resultaat bepaling</item>
+                  </part>
+                  <part type="CFG-DOC-HERKOMST">
+                     <item>Herkomst</item>
+                     <item>BRO</item>
+                  </part>
+                  <part type="CFG-DOC-DEFINITIE">
+                     <item>Definitie</item>
+                     <item>
+                        <p xmlns="http://www.w3.org/1999/xhtml"
+                           xmlns:html="http://www.w3.org/1999/xhtml"
+                           xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                     </item>
+                  </part>
+                  <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                     <item>Herkomst definitie</item>
+                     <item>BRO</item>
+                  </part>
+               </content>
+               <section type="SHORT-ATTRIBUTES">
+                  <content>
+                     <itemtype/>
+                     <itemtype type="ATTRIBUTE-NAME"/>
+                     <itemtype type="ATTRIBUTE-DEFINITION"/>
+                     <itemtype type="ATTRIBUTE-FORMAT"/>
+                     <itemtype type="ATTRIBUTE-CARD"/>
+                     <part>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_drogeBulkdichtheid">droge bulkdichtheid</item>
+                        </item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_gmlMeasure">Meetwaarde</item>
+                        </item>
+                        <item>1</item>
+                     </part>
+                     <part>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_droogtemperatuur">droogtemperatuur</item>
+                        </item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Wandmonsteranalyse_Droogtemperatuur">Droogtemperatuur</item>
+                        </item>
+                        <item>1</item>
+                     </part>
+                     <part>
+                        <item>
+                           <item type="detail"
+                                 idref="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_volumeWaterverzadigd">volume waterverzadigd</item>
+                        </item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_IndicationYesNoEnumeration">IndicatieJaNee</item>
+                        </item>
+                        <item>1</item>
+                     </part>
+                  </content>
+               </section>
+               <section type="SHORT-ASSOCIATIONS">
+                  <content approach="association">
+                     <itemtype/>
+                     <itemtype type="ASSOCIATION-NAME"/>
+                     <itemtype type="ASSOCIATION-DEFINITION"/>
+                     <part>
+                        <item>
+                           <item>
+                              <item type="global"
+                                    idref="global_class_Wandmonsteranalyse_BepalingDrogeBulkdichtheid">Bepaling droge bulkdichtheid</item>
+                           </item>
+                           <item>[ 1 ]</item>
+                           <item>
+                              <item type="detail"
+                                    idref="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_bla">leidt tot: bla</item>
+                           </item>
+                           <item>Resultaat bepaling</item>
+                           <item>[ 1 ]</item>
+                        </item>
+                        <item/>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <itemtype/>
+                     <itemtype type="ROLE-NAME"/>
+                     <itemtype type="ROLE-DEFINITION"/>
+                     <part>
+                        <item>
+                           <item>
+                              <item type="global"
+                                    idref="global_class_Wandmonsteranalyse_BepalingDrogeBulkdichtheid">Bepaling droge bulkdichtheid</item>
+                           </item>
+                           <item>[ 1 ]</item>
+                           <item>
+                              <item type="detail"
+                                    idref="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_bla">leidt tot: bla</item>
+                           </item>
+                           <item>Resultaat bepaling</item>
+                           <item>[ 1 ]</item>
+                        </item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">resultaatBepaling</p>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+            </section>
             <section name="Wandmonsteranalyse"
                      type="OBJECTTYPE"
                      id="global_class_Wandmonsteranalyse_Wandmonsteranalyse"
@@ -3481,204 +3571,57 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                      </part>
                   </content>
                </section>
-               <section name="Resultaat bepaling"
-                        type="DETAIL-COMPOSITE"
-                        id="detail_class_Wandmonsteranalyse_ResultaatBepaling"
-                        id-global="global_class_Wandmonsteranalyse_ResultaatBepaling"
-                        uuid="EAID_61AB3BF7_1769_47b2_81A8_75ECB699775E">
+               <section name="resultaat bepaling"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_resultaatBepaling"
+                        id-global="global_attribute_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_resultaatBepaling">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>Resultaat bepaling</item>
+                        <item>resultaat bepaling</item>
                      </part>
                      <part type="CFG-DOC-HERKOMST">
                         <item>Herkomst</item>
                         <item>BRO</item>
                      </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                        </item>
-                     </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
                         <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAUTHENTIEK">
                         <item>Indicatie authentiek</item>
                         <item>Authentiek</item>
                      </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Resultaat bepaling</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
                   </content>
-                  <section name="droge bulkdichtheid"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_drogeBulkdichtheid"
-                           id-global="global_attribute_Wandmonsteranalyse_ResultaatBepaling_drogeBulkdichtheid">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_Wandmonsteranalyse_ResultaatBepaling">Resultaat bepaling</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>droge bulkdichtheid</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Meetwaarde</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="droogtemperatuur"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_droogtemperatuur"
-                           id-global="global_attribute_Wandmonsteranalyse_ResultaatBepaling_droogtemperatuur">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_Wandmonsteranalyse_ResultaatBepaling">Resultaat bepaling</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>droogtemperatuur</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Droogtemperatuur</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="volume waterverzadigd"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_volumeWaterverzadigd"
-                           id-global="global_attribute_Wandmonsteranalyse_ResultaatBepaling_volumeWaterverzadigd">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_Wandmonsteranalyse_ResultaatBepaling">Resultaat bepaling</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>volume waterverzadigd</item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMST">
-                           <item>Herkomst</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                           <item>Herkomst definitie</item>
-                           <item>BRO</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>IndicatieJaNee</item>
-                        </part>
-                     </content>
-                  </section>
                </section>
                <section name="leidt tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid"
-                        id-global="global_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid">
+                        id="detail_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_bla"
+                        id-global="global_association_Wandmonsteranalyse_BepalingDrogeBulkdichtheid_bla">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -8463,6 +8406,176 @@ Het materiaal kan na het drogen van het materiaal gedesintegreerd of verkleurd z
                            <item type="global"
                                  idref="global_class_Wandmonsteranalyse_BepalingKorrelgrootteverdeling">Bepaling korrelgrootteverdeling</item>
                         </item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Resultaat bepaling"
+                     type="OBJECTTYPE"
+                     id="detail_class_Wandmonsteranalyse_ResultaatBepaling"
+                     id-global="global_class_Wandmonsteranalyse_ResultaatBepaling">
+               <section name="droge bulkdichtheid"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_drogeBulkdichtheid"
+                        id-global="global_attribute_Wandmonsteranalyse_ResultaatBepaling_drogeBulkdichtheid">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>droge bulkdichtheid</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetwaarde</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="droogtemperatuur"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_droogtemperatuur"
+                        id-global="global_attribute_Wandmonsteranalyse_ResultaatBepaling_droogtemperatuur">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>droogtemperatuur</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Droogtemperatuur</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="volume waterverzadigd"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Wandmonsteranalyse_ResultaatBepaling_volumeWaterverzadigd"
+                        id-global="global_attribute_Wandmonsteranalyse_ResultaatBepaling_volumeWaterverzadigd">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>volume waterverzadigd</item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMST">
+                        <item>Herkomst</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                        <item>Herkomst definitie</item>
+                        <item>BRO</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>IndicatieJaNee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
