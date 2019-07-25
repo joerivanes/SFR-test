@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_96260480_5882_424d_BA6E_22618CCDB599"
       generator-version="1.53.2"
-      generator-date="2019-07-25T12:45:34Z">
+      generator-date="2019-07-25T12:52:40Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common (v0.91 28-01-2019)"
@@ -5971,7 +5971,25 @@ De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie g
             <section name="Bepaling droge bulkdichtheid"
                      type="OBJECTTYPE"
                      id="global_class_Wandmonsteranalyse_BepalingDrogeBulkdichtheid"
-                     uuid="EAID_6066C6DB_8452_4e99_BFBE_09AFED4E74FB"><!--removed empty content-->
+                     uuid="EAID_6066C6DB_8452_4e99_BFBE_09AFED4E74FB">
+               <section type="IMAGEMAPS"
+                        name="Bepaling droge bulkdichtheid-imagemap"
+                        id="imagemap_class_Wandmonsteranalyse_BepalingDrogeBulkdichtheid">
+                  <section type="IMAGEMAP"
+                           name="Bepaling droge bulkdichtheid - overzicht"
+                           id="EAID_F0303824_F2D2_4777_9035_EA3524D601A7">
+                     <content>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>Bepaling droge bulkdichtheid - overzicht</item>
+                        </part>
+                        <part type="CFG-DOC-DESCRIPTION">
+                           <item>Omschrijving</item>
+                           <item/>
+                        </part>
+                     </content>
+                  </section>
+               </section>
                <content>
                   <part type="CFG-DOC-NAAM">
                      <item>Naam</item>
