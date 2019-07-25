@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_96260480_5882_424d_BA6E_22618CCDB599"
       generator-version="1.53.2"
-      generator-date="2019-07-25T12:36:31Z">
+      generator-date="2019-07-25T12:44:13Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common (v0.91 28-01-2019)"
@@ -5859,7 +5859,26 @@ De som van alle fracties is gelijk aan de waarde van het attribuut <em>fractie g
       </section>
       <section type="DOMAIN"
                name="Wandmonsteranalyse"
-               id="global_package_Wandmonsteranalyse"><!--removed empty content--><!--skipped excluded section-->
+               id="global_package_Wandmonsteranalyse">
+         <section type="IMAGEMAPS"
+                  name="Wandmonsteranalyse-imagemap"
+                  id="imagemap_package_Wandmonsteranalyse">
+            <section type="IMAGEMAP"
+                     name="Wandmonsteranalyse_voor_OM - overzicht"
+                     id="EAID_CA9CD1EC_53FF_4a39_AC4D_DBBC9C184AE0">
+               <content>
+                  <part type="CFG-DOC-NAAM">
+                     <item>Naam</item>
+                     <item>Wandmonsteranalyse_voor_OM - overzicht</item>
+                  </part>
+                  <part type="CFG-DOC-DESCRIPTION">
+                     <item>Omschrijving</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <!--skipped excluded section-->
          <section type="OVERVIEW-OBJECTTYPE" include="true">
             <section name="Bepaling Chemie Overig"
                      type="OBJECTTYPE"
