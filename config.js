@@ -30,7 +30,7 @@ var respecConfig = {
 
   ],
 
-  shortName: "gar",
+  shortName: "SFR-test",
 
   pubDomain: "bro",
 
