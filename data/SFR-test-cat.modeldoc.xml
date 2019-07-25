@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_96260480_5882_424d_BA6E_22618CCDB599"
       generator-version="1.53.2"
-      generator-date="2019-07-25T15:25:13Z">
+      generator-date="2019-07-25T15:31:43Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Wandmonsteranalyse"
@@ -46,7 +46,7 @@
                         </part>
                         <part type="CFG-DOC-DESCRIPTION">
                            <item>Omschrijving</item>
-                           <item>De relatie van de entiteit Bepaling droge bulkdichtheid. Test met detail.</item>
+                           <item>De relatie van de entiteit Bepaling droge bulkdichtheid. KAAAS Test met detail.</item>
                         </part>
                      </content>
                   </section>
@@ -2875,16 +2875,16 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                         name="Resultaat bepaling-imagemap"
                         id="imagemap_class_Wandmonsteranalyse_ResultaatBepaling">
                   <section type="IMAGEMAP"
-                           name="Resultaat bepaling - overzicht"
+                           name="Resultaat bepaling - detail"
                            id="EAID_C4605179_86E7_4a71_B617_337CD049DCF8">
                      <content>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>Resultaat bepaling - overzicht</item>
+                           <item>Resultaat bepaling - detail</item>
                         </part>
                         <part type="CFG-DOC-DESCRIPTION">
                            <item>Omschrijving</item>
-                           <item/>
+                           <item>Waarom komt deze nu niet door?</item>
                         </part>
                      </content>
                   </section>
