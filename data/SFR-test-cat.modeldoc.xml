@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_96260480_5882_424d_BA6E_22618CCDB599"
       generator-version="1.53.2"
-      generator-date="2019-07-25T12:52:40Z">
+      generator-date="2019-07-25T13:10:46Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Domeinmodel BRO Common (v0.91 28-01-2019)"
@@ -8976,8 +8976,7 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                               xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
                         </item>
                         <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommonV09128012019_Datum">Datum</item>
+                           <item type="global" idref="global_class_xsdate">Datum</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -8992,8 +8991,7 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                               xmlns:imvert="http://www.imvertor.org/schema/system"> To do</p>
                         </item>
                         <item>
-                           <item type="global"
-                                 idref="global_class_DomeinmodelBROCommonV09128012019_Organisatie">Organisatie</item>
+                           <item type="global" idref="global_class_OrganizationType">Organisatie</item>
                         </item>
                         <item>0 .. 1</item>
                      </part>
