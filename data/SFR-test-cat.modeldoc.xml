@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_96260480_5882_424d_BA6E_22618CCDB599"
       generator-version="1.53.2"
-      generator-date="2019-07-25T15:31:43Z">
+      generator-date="2019-07-29T09:16:47Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN"
                name="Wandmonsteranalyse"
@@ -1122,6 +1122,24 @@ De bepaling wordt uitgevoerd aan grond en aan stenig bijzonder materiaal en de m
                      type="OBJECTTYPE"
                      id="global_class_Wandmonsteranalyse_BepalingWatergehalte"
                      uuid="EAID_1ABEF162_7A45_4199_9155_DBC667B5C588">
+               <section type="IMAGEMAPS"
+                        name="Bepaling watergehalte-imagemap"
+                        id="imagemap_class_Wandmonsteranalyse_BepalingWatergehalte">
+                  <section type="IMAGEMAP"
+                           name="Bepaling watergehalte - detail"
+                           id="EAID_64EB3FBB_7600_4745_B2E7_2BA240EEF601">
+                     <content>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>Bepaling watergehalte - detail</item>
+                        </part>
+                        <part type="CFG-DOC-DESCRIPTION">
+                           <item>Omschrijving</item>
+                           <item/>
+                        </part>
+                     </content>
+                  </section>
+               </section>
                <content>
                   <part type="CFG-DOC-NAAM">
                      <item>Naam</item>
